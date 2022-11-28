@@ -1,4 +1,4 @@
 FROM openjdk:17
 EXPOSE 8082
-ADD target/JenkinsMaven.jar JenkinsMaven.jar 
-ENTRYPOINT [ "java", "-jar", "/JenkinsMaven"]
+ADD target/jenkinsMaven.jar jenkinsMaven.jar 
+ENTRYPOINT [ "java", "-jar", "/jenkinsMaven"]
